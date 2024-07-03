@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-icon">
+                <a href="#">&#9776; Menu</a>
+                <ul class="dropdown">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <a href="index.html" class="logo">
+                <img src="images/logo2.png" alt="Rolex Logo">
+            </a>
+            <ul class="nav-right">
+                <li>
+                    <a href="#" id="search-icon">
+                        <svg class="icon" height="18" width="18" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="m14.8 13.4-4-4c.7-1 1.1-2.1 1.1-3.4 0-3.2-2.6-5.8-5.8-5.8-3.3 0-5.9 2.6-5.9 5.8s2.6 5.8 5.8 5.8c1.3 0 2.4-.4 3.4-1.1l4 4zm-8.8-3.5c-2.1 0-3.9-1.7-3.9-3.9 0-2.1 1.8-3.9 3.9-3.9s3.9 1.8 3.9 3.9c0 2.2-1.7 3.9-3.9 3.9z"></path>
+                        </svg>
+                        Search
+                    </a>
+                </li>
+                <li><a href="#"><svg class="icon" viewBox="0 0 24 24"><path d="M12 2C8.13401 2 5 5.13401 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.866-3.134-7-7-7zm0 9.5c-1.381 0-2.5-1.7-2.5-2.5s1.119-2.5 2.5-2.5 2.5 1.8 2.5 2.5-1.119 2.5-2.5 2.5z"/></svg> Store locator</a></li>
+                <li><a href="#"><svg class="icon" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg> Favourites</a></li>
+            </ul>
+        </nav>
+        <div id="search-container" class="search-container hidden">
+            <button id="close-search">Close</button>
+            <div class="search-box">
+                <input id="search-input" placeholder="Search" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" type="text" maxlength="1010" enterkeyhint="search" aria-label="Search for a watch, a city, a material...">
+                <button aria-label="Validate search input">
+                    <svg height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt="">
+                        <path d="M14.8,7.5L9,13.4L7.6,12l3.4-3.4H0.2v-2H11L7.7,3L9,1.6L14.8,7.5z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="search-results" class="search-results"></div>
+        </div>
+    </header>
+    <section class="vid2">
+        <div class="vdc2">
+            <video autoplay muted loop>
+                <source src="images/video2.webm" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay">
+                <h1>THE COLLECTION</h1>
+                <h2>Rolex watches</h2>
+                <p>New watches 2024</p>
+            </div>
+        </div>
+    </section>   
+
+    <section class="explore-collection">
+    <div class="explore-text">
+        <h2>Explore the Rolex collection</h2>
+        <p>The Rolex collection offers a wide range of prestigious, high-precision timepieces, from Professional to Classic models to suit any wrist.</p>
+        <a href="#" class="explore-link">Find your Rolex <svg height="12" width="12" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><path d="M0.1,0.1v14.8h14.8V9h-2v3.7v0.2V13h-0.1h-0.2H2.3H2.1H2v-0.1v-0.2V2.4V2.2V2.1h0.1h0.2H6v-2H0.1z M8.7,0.1v2h2.1h0.5h0.3l-0.2,0.2L11,2.6L5.8,7.8l1.4,1.4L12.4,4l0.4-0.4l0.2-0.2v0.3v0.5v2.1h2V0.1H8.7z"></path></svg></a>
+    </div>
+    <div class="explore-categories">
+        <a href="#" class="category active">All</a>
+        <a href="#" class="category">Classic</a>
+        <a href="#" class="category">Professional</a>
+        <a href="#" class="category">Watches by theme</a>
+        <button class="configure-btn">Configure</button>
+    </div>
+    </section>
+    <section class="watch-collection">
+        <div class="watch-item">
+            <img src="images/watch1.png" alt="Datejust">
+            <div class="watch-info">
+                <h2>Datejust</h2>
+                <p>A watch for the dates to remember</p>
+                <a href="#" class="discover-more">Discover more</a>
+            </div>
+        </div>
+        <div class="watch-item">
+            <img src="images/watch2.png" alt="Submariner">
+            <div class="watch-info">
+                <h2>Submariner</h2>
+                <p>The supreme diver’s watch</p>
+                <a href="#" class="discover-more">Discover more</a>
+            </div>
+        </div>
+        <div class="watch-item">
+            <img src="images/watch3.png" alt="Day-Date">
+            <div class="watch-info">
+                <h2>Day-Date</h2>
+                <p>A witness to some of History’s most pivotal moments</p>
+                <a href="#" class="discover-more">Discover more</a>
+            </div>
+        </div>
+        <div class="watch-item">
+            <img src="images/watch4.png" alt="Cosmograph Daytona">
+            <div class="watch-info">
+                <h2>Cosmograph Daytona</h2>
+                <p>The chronograph that made a watch an icon</p>
+                <a href="#" class="discover-more">Discover more</a>
+            </div>
+        </div>
+        <div class="watch-item">
+            <img src="images/watch5.png" alt="Cosmograph Daytona">
+            <div class="watch-info">
+                <h2>Cosmograph Daytona</h2>
+                <p>The chronograph that made a watch an icon</p>
+                <a href="#" class="discover-more">Discover more</a>
+            </div>
+        </div>
+        <div class="watch-item">
+            <img src="images/watch6.png" alt="Deepsea">
+            <div class="watch-info">
+                <h2>Deepsea</h2>
+                <p>Extreme divers’ watches</p>
+                <a href="#" class="discover-more">Discover more</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="footer-initiatives">
+        <a href="https://www.rolex.org/" target="_blank" rel="noopener noreferrer" aria-label="open in new tab" class="footer-initiatives-link">
+            <picture>
+                <source media="(max-width: 767px)" srcset="https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_240/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746-portrait 240w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_320/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746-portrait 320w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_640/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746-portrait 640w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_800/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746-portrait 800w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_1200/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746-portrait 1200w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_1600/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746-portrait 1600w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_1920/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746-portrait 1920w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_2440/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746-portrait 2440w" sizes="100vw" width="780" height="900">
+                <source media="(min-width: 768px)" srcset="https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_240/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746 240w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_320/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746 320w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_640/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746 640w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_800/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746 800w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_1200/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746 1200w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_1600/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746 1600w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_1920/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746 1920w, https://media.rolex.com/image/upload/q_auto/f_auto/c_limit,w_2440/v1708396260/rolexcom/footer/rolex-com-footer-rolex-org-push-cc69-1587746 2440w" sizes="100vw" width="3000" height="703">
+                <img alt="Rolex.org" class="css-fmei9v e1jb8e190" loading="lazy" decoding="async">
+            </picture>
+        </a>
+        <div class="footer-initiatives-text">
+            <h2>Discover our Perpetual Initiatives</h2>
+            <p>Visit Rolex.org <svg class="undefined rtl css-1emgvlg e10fsun60" height="15" width="15" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true" alt=""><path d="M0.1,0.1v14.8h14.8V9h-2v3.7v0.2V13h-0.1h-0.2H2.3H2.1H2v-0.1v-0.2V2.4V2.2V2.1h0.1h0.2H6v-2H0.1z M8.7,0.1v2h2.1h0.5h0.3l-0.2,0.2L11,2.6L5.8,7.8l1.4,1.4L12.4,4l0.4-0.4l0.2-0.2v0.3v0.5v2.1h2V0.1H8.7z"></path></svg></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Luxurious Watches. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
